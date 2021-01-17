@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /* position: absolute;
+  left: 10%; */
+  padding: 30px 10%;
+  height: 60px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+li, a {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.Checkout {
+  width: 83px;
+  height: 35px;
+  position: relative;
+  left: 100%;
+  bottom: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-img {
+  width: 382.5px;
+  position: relative;
+  top: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  left: 800px;
+  height: 461px;
+}
+
+section {
+  position: absolute;
+  left: 81px;
+  bottom: 270px;
+}
+
+section h1 {
+  font-size: 48px;
+  font-family: 'Russo One';
+  color: #793237;
+  position: relative;
+  right: 78px;
+  text-align: center;
+  margin-bottom: 23.5px;
+}
+
+section p {
+  font-size: 32px;
+  color: #81363B;
+  font-family: 'Russo One';
+  text-align: center;
+}
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #D9D9D9;
+}
+
+nav{
+  position: relative;
+  left: 68%;
+  margin-top: 39px;
+}
+
+.btn1{
+  background-color: #81363B;
+  font-size: 18px;
+  width: 119.5px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  color: white;
+  font-family: 'Russo One';
+  margin-right: 20px;
+}
+.btn2{
+  cursor: pointer;
+  color: #636877;
+  width: 119.5px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #D9D9D9;
+  font-family: 'Russo One';
+  border: 2px solid #636877;
+}
+.btn{
+  position: absolute;
+  left: 81px;
+  top: 67px;
+  top: 68%;
+}

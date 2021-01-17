@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cicle_div {
+  position: absolute;
+  left: 54%;
+  top: -34%;
+}
+
+.cicle_div .circle {
+  width: 1113.5px;
+  height: 1113.5px;
+  background-color: #2A2A2A;
+  position: fixed;
+  z-index: 555;
+  -webkit-clip-path: ellipse();
+          clip-path: ellipse();
+  position: relative;
+}
+
+.inputs {
+  margin-top: 66px;
+  position: relative;
+  left: 69%;
+  z-index: 556;
+}
+
+.inputs input {
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 2px solid #81363B;
+  border-radius: 2.5px;
+  color: white;
+  font-size: 30px;
+  width: 328px;
+  height: 44.29px;
+}
+
+.inputs input::-webkit-outer-spin-button, .inputs input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputs input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.inputs span {
+  font-family: 'Russo One';
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.inputs .shop_now {
+  position: relative;
+  left: 100px;
+  margin-top: 26px;
+  font-family: 'Russo One';
+  color: #e7e7e7;
+  background-color: #81363B;
+  border: none;
+  font-size: 18px;
+  width: 119.5px;
+  cursor: pointer;
+  height: 37.5px;
+}
+
+.inputs .shop_now:hover {
+  background-color: #703438;
+  color: white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+h1 {
+  font-family: 'Russo One';
+  color: #793237;
+  text-align: center;
+  position: absolute;
+  left: 49px;
+  top: 44%;
+  font-size: 48px;
+}

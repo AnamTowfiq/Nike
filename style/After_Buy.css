@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #2A2A2A;
+}
+
+h1 {
+  color: #934045;
+  font-family: 'Roboto';
+  font-size: 48px;
+  position: relative;
+  top: 35vh;
+  font-weight: 300;
+  text-align: center;
+}
+
+.back {
+  position: relative;
+  left: 10px;
+  top: -46.5px;
+  background-color: #2A2A2A;
+  border: none;
+  cursor: pointer;
+}
+
+.back img {
+  width: 67px;
+  height: 60.5px;
+}
