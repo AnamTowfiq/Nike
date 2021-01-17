@@ -57,6 +57,7 @@ body {
   height: 40px;
   background-color: #81363B;
   border: none;
+  cursor: pointer;
 }
 
 .box {
