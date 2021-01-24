@@ -25,6 +25,7 @@
 }
 
 .inputs {
+  outline: none;
   margin-top: 66px;
   position: relative;
   left: 69%;
